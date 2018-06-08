@@ -20,6 +20,7 @@ export default class Component1 extends Component{
   static defaultProps = {
     message: 'hi there'
   }
+
   render(){
     let name = this.state.showName ? this.state.name : "no name"
     return(
